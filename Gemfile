@@ -51,3 +51,6 @@ gem 'simple_form'
 
 # Simple form
 gem 'simple_form'
+
+# Faker
+gem 'faker'

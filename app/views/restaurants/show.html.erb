@@ -1,0 +1,15 @@
+<br>
+<br>
+<h2><%= @restaurant.name %></h2>
+<br>
+<p><%= @restaurant.address %></p>
+<br>
+<p><%= @restaurant.phone_number %></p>
+<br>
+<p><%= @restaurant.category %></p>
+<br>
+<br>
+<%= link_to 'Back', restaurants_path %> |
+<br>
+<br>
+<%= link_to 'Leave a review', new_restaurant_review_path(@restaurant) %>
